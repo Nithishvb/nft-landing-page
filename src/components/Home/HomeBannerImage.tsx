@@ -2,7 +2,7 @@ import { HomeDashboardImage } from "../../assets";
 
 const HomeBannerImage = () => {
   return (
-    <div className="flex justify-center pt-[50px] ">
+    <div className="flex justify-center pt-[40px] ">
       <img src={HomeDashboardImage} alt="" />
     </div>
   );
