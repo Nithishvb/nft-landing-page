@@ -1,4 +1,6 @@
 import "./App.css";
+import Analytics from "./components/Analytics/Analytics";
+import Features from "./components/Features/Features";
 import Feedback from "./components/Feedback/Feedback";
 import Home from "./components/Home/Home";
 
@@ -10,6 +12,12 @@ function App() {
       </div>
       <div>
         <Feedback />
+      </div>
+      <div>
+        <Features />
+      </div>
+      <div>
+        <Analytics />
       </div>
     </div>
   );

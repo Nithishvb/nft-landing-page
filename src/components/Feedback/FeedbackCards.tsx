@@ -1,9 +1,23 @@
 import { Star } from 'lucide-react';
+import { AmazondImage, GoogleImage, SpotifyImage } from '../../assets';
 
 interface FeedBackCardpropType {
   rating: number;
   feedbackText: string;
   logo: string;
+};
+
+interface FeedbacksLogosType {
+  google: typeof GoogleImage;
+  amazon: typeof AmazondImage;
+  spotify: typeof SpotifyImage;
+}
+
+
+const FeedbacksLogos: FeedbacksLogosType = {
+  "google": GoogleImage,
+  "amazon": AmazondImage,
+  "spotify": SpotifyImage 
 }
 
 const FeedbackCards = ({
@@ -17,8 +31,8 @@ const FeedbackCards = ({
       <div className="w-[440px] p-6 grid gap-6">
         <div className="flex items-center justify-center">
             <div className="flex justify-center gap-4">
-                {Array(rating).fill(0).map(() => (
-                    <Star color="#EDCB50" fill="#EDCB50" />
+                {Array(rating).fill(0).map((_, index: number) => (
+                    <Star color="#EDCB50" fill="#EDCB50" key={index} />
                 ))}
             </div>
         </div>
@@ -29,9 +43,9 @@ const FeedbackCards = ({
         </div>
         <div className="flex justify-center pt-[24px]">
           <img
-            src="/placeholder.svg"
-            width="100"
-            height="50"
+            src={FeedbacksLogos[logo]}
+            width="200"
+            height="78"
             alt="Logo"
             className="aspect-[2/1] object-contain"
           />
