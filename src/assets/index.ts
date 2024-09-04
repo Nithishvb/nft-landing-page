@@ -19,4 +19,7 @@ export { default as ApproveYellow } from "./Approve.png";
 export { default as CloseYellow } from "./Close.png";
 export { default as BusinessApprove } from "./BusinessApprove.png";
 export { default as PremiumApprove } from "./PremiumApprove.png";
-export { default as FooterLogo } from "./Frame 585.png";
+export { default as InstagramImage } from "./Frame 58.png";
+export { default as FacebookImage } from "./Frame 59.png";
+export { default as YoutubeImage } from "./Frame 60.png";
+export { default as FooterLogo } from "./NftiseLogo.png";
