@@ -2,7 +2,7 @@ import { BlueTrophy, BusinessApprove, CloseYellow } from "../../assets";
 
 const BusinessPricingCard = () => {
   return (
-    <div className="w-[424px] h-[539px] bg-white mt-[74px] rounded-2xl border border-2 border-[#1681FE]">
+    <div className="lg:w-[424px] h-[539px] bg-white mt-[74px] rounded-2xl border border-2 border-[#1681FE]">
       <div className="flex justify-between p-[32px]">
         <div className="flex items-center gap-4 border-b-2 border-[#EAEBEC]">
           <div>

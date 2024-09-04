@@ -2,7 +2,7 @@ import { ApproveYellow, CloseYellow, YellowTrophy } from "../../assets";
 
 const PricingCards = () => {
   return (
-    <div className="w-[424px] h-[539px] bg-white mt-[74px] rounded-2xl">
+    <div className=" lg:w-[424px] h-[539px] bg-white mt-[74px] rounded-2xl">
       <div className="p-[32px] flex items-center gap-4 border-b-2 border-[#EAEBEC]">
         <div>
           <img src={YellowTrophy} alt="pricing_img" />
@@ -20,37 +20,37 @@ const PricingCards = () => {
       <div className="p-[32px]">
         <div className="flex items-center gap-3 py-2">
           <img src={ApproveYellow} alt="approve" />
-          <p className="text-[#293241] text-[16px]">
+          <p className="text-[#293241] text-[13px] lg:text-[16px]">
             Using basic skills you can
           </p>
         </div>
         <div className="flex items-center gap-3 py-2">
           <img src={ApproveYellow} alt="approve" />
-          <p className="text-[#293241] text-[16px]">
+          <p className="text-[#293241] text-[13px] lg:text-[16px]">
             Using basic skills you can
           </p>
         </div>
         <div className="flex items-center gap-3 py-2">
           <img src={ApproveYellow} alt="approve" />
-          <p className="text-[#293241] text-[16px]">
+          <p className="text-[#293241] text-[13px] lg:text-[16px]">
             Using basic skills you can improve
           </p>
         </div>
         <div className="flex items-center gap-3 py-2">
           <img src={CloseYellow} alt="approve" />
-          <p className="text-[#A9ADB3] text-[16px]">
+          <p className="text-[#A9ADB3] text-[13px] lg:text-[16px]">
             Using basic skills you can improve
           </p>
         </div>
         <div className="flex items-center gap-3 py-2">
           <img src={CloseYellow} alt="approve" />
-          <p className="text-[#A9ADB3] text-[16px]">
+          <p className="text-[#A9ADB3] text-[13px] lg:text-[16px]">
             Using basic skills you can improve
           </p>
         </div>
         <div className="flex items-center gap-3 py-2">
           <img src={CloseYellow} alt="approve" />
-          <p className="text-[#A9ADB3] text-[16px]">
+          <p className="text-[#A9ADB3] text-[13px] lg:text-[16px]">
             Using basic skills you can improve
           </p>
         </div>

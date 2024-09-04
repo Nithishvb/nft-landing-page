@@ -5,7 +5,7 @@ import HomeBannerImage from "./HomeBannerImage";
 
 const Home = () => {
   return (
-    <div className="bg-[#0D1728] h-[1276px] w-[100%] relative">
+    <div className="bg-[#0D1728] h-[500px] lg:h-[1276px] w-[100%] relative">
       <div className="w-[100%] top-0 left-0 w-full">
         <img
           src={HomeLeftRectangle}
@@ -15,13 +15,13 @@ const Home = () => {
         <img
           src={HomeRightRectangle}
           alt=""
-          className="absolute top-0 right-0 w-[800px]"
+          className="absolute top-0 right-0 lg:w-[800px]"
         />
       </div>
       <div className="relative z-10">
         <Header />
       </div>
-      <div className="relative z-10">
+      <div className="relative z-10 pl-[25px]">
         <HomeBanner />
       </div>
       <div className="relative z-10">

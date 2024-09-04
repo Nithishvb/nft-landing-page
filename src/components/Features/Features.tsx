@@ -9,11 +9,11 @@ const Features = () => {
         <h2 className="font-bold text-[48px] text-[#293241] text-center">
           How Does It Work?
         </h2>
-        <p className="pt-[20px] text-[24px] text-[#7F848D] text-center">
+        <p className="pt-[20px] text-[24px] text-[#7F848D] text-center px-4 lg:px-0">
           Using basic skills you can improve your business stuff with Around
         </p>
       </div>
-      <div className="flex justify-center gap-6 pt-[111px]">
+      <div className="flex justify-center flex-col items-center lg:flex-row gap-6 pt-[111px]">
         {FEATURES.map((feat) => (
           <FeaturesCard title={feat.title} description={feat.decription} key={feat.id} />
         ))}

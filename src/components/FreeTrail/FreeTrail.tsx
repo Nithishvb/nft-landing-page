@@ -2,7 +2,7 @@ import { HomeDashboardImage } from "../../assets";
 
 const FreeTrail = () => {
   return (
-    <div className="bg-[#293241] w-[1320px] h-[546px] my-[150px] m-auto rounded-3xl flex relative overflow-hidden">
+    <div className="bg-[#293241] w-[100%] lg:w-[1320px] h-[546px] my-[150px] m-auto rounded-3xl flex relative overflow-hidden ">
       <div className="pl-[60px] pt-[90px] w-[50%]">
         <div>
           <h2 className="text-[48px] font-bold text-white">

@@ -8,7 +8,7 @@ import {
 const Footer = () => {
   return (
     <div className="border-t-2 border-[#EAEBEC] mx-[110px] pt-[70px] pb-[39px]">
-      <footer className="bg-muted w-full flex">
+      <footer className="bg-muted w-full flex flex-col lg:flex-row">
         <div className="flex flex-col gap-4">
           <a href="#" className="flex items-center gap-2">
             {/* <MountainIcon className="h-6 w-6" /> */}
@@ -20,7 +20,7 @@ const Footer = () => {
             Donec ut velit erat.
           </p>
           <p className="text-[18px] text-[#293241]">
-            © 2022 All rights reserved.
+            © 2024 All rights reserved.
           </p>
         </div>
         <div className="container flex justify-between lg:pl-40 text-[#7F848D] text-[16px]">
