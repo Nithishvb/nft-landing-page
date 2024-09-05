@@ -7,7 +7,7 @@ const Pricing = () => {
     <div className="bg-[#F0F9FF] py-[150px] lg:px-[100px] text-center">
       <div>
         <h2 className="text-[48px] text-[#293241] font-bold">Pricing</h2>
-        <p className="text-[24px] text-[#7F848D] pt-[32px]">
+        <p className="text-[18px] lg:text-[24px] text-[#7F848D] pt-[32px]">
           Using basic skills you can improve your business stuff with Around
         </p>
       </div>

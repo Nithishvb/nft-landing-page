@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="border-t-2 border-[#EAEBEC] mx-[110px] pt-[70px] pb-[39px]">
+    <div className="border-t-2 border-[#EAEBEC] lg:mx-[110px]  lg:pb-[39px] p-[20px] lg:pt-[70px]">
       <footer className="bg-muted w-full flex flex-col lg:flex-row">
         <div className="flex flex-col gap-4">
           <a href="#" className="flex items-center gap-2">
@@ -19,11 +19,8 @@ const Footer = () => {
             Nulla facilisi. Vestibulum non est nisl. Donec eget sodales nisl.
             Donec ut velit erat.
           </p>
-          <p className="text-[18px] text-[#293241]">
-            © 2024 All rights reserved.
-          </p>
         </div>
-        <div className="container flex justify-between lg:pl-40 text-[#7F848D] text-[16px]">
+        <div className="container flex justify-between flex-col gap-[20px] lg:gap-0 lg:flex-row lg:pl-40 text-[#7F848D] text-[16px]">
           <div className="grid gap-1">
             <a href="#" className="text-sm hover:underline">
               Pricing
@@ -70,6 +67,11 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      <div>
+        <p className="text-[18px] text-[#293241]">
+          © 2024 All rights reserved.
+        </p>
+      </div>
     </div>
   );
 };

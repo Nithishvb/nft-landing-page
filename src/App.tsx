@@ -25,7 +25,7 @@ function App() {
       <div>
         <Pricing />
       </div>
-      <div>
+      <div className="my-[20px] pl-[20px]">
         <FreeTrail />
       </div>
       <div>
