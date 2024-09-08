@@ -21,7 +21,7 @@ const Home = () => {
       <div className="relative z-10">
         <Header />
       </div>
-      <div className="relative z-10 pl-[25px]">
+      <div className="relative z-10 lg:pl-[25px]">
         <HomeBanner />
       </div>
       <div className="relative z-10">

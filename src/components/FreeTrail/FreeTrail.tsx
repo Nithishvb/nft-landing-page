@@ -2,8 +2,8 @@ import { HomeDashboardImage } from "../../assets";
 
 const FreeTrail = () => {
   return (
-    <div className="bg-[#293241] w-[100%] lg:w-[1320px] h-[546px]  rounded-3xl flex flex-col lg:flex-row relative overflow-hidden lg:my-[150px] lg:m-auto">
-      <div className="p-[20px] lg:pl-[60px] pt-[90px] lg:w-[50%]">
+    <div className="bg-[#293241] w-[100%] lg:w-[1320px] h-[546px] rounded-3xl flex flex-col lg:flex-row relative overflow-hidden lg:my-[150px] lg:m-auto">
+      <div className="p-[20px] lg:pl-[60px] pt-[60px] lg:pt-[90px] lg:w-[50%]">
         <div>
           <h2 className="text-[22px] lg:text-[48px] font-bold text-white">
             The best flows on the planet, at your fingertips.

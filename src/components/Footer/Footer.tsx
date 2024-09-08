@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div>
+      <div className="pt-[20px] lg:pt-0">
         <p className="text-[18px] text-[#293241]">
           © 2024 All rights reserved.
         </p>

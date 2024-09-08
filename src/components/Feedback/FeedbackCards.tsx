@@ -28,7 +28,7 @@ const FeedbackCards = ({
     console.log(logo);
   return (
     <div>
-      <div className="w-[440px] p-6 grid gap-6">
+      <div className="w-[100%] lg:w-[440px] p-6 grid gap-6">
         <div className="flex items-center justify-center">
             <div className="flex justify-center gap-4">
                 {Array(rating).fill(0).map((_, index: number) => (
