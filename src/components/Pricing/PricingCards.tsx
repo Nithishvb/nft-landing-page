@@ -2,7 +2,7 @@ import { ApproveYellow, CloseYellow, YellowTrophy } from "../../assets";
 
 const PricingCards = () => {
   return (
-    <div className="lg:w-[424px] h-[539px] bg-white mt-[74px] rounded-2xl">
+    <div className="w-[85%] lg:w-[424px] h-[539px] bg-white mt-[74px] rounded-2xl">
       <div className="p-[32px] flex items-center gap-4 border-b-2 border-[#EAEBEC]">
         <div>
           <img src={YellowTrophy} alt="pricing_img" />

@@ -6,7 +6,7 @@ import {
 
 const FeaturesChart = () => {
   return (
-    <div className="pt-[150px] lg:pt-[250px] flex justify-center flex-col items-center lg:flex-row px-[50px] pb-[150px]">
+    <div className="pt-[150px] lg:pt-[250px] flex justify-center flex-col items-center lg:flex-row px-[25px] lg:px-[50px] pb-[150px]">
       <div className="lg:w-[50%] flex justify-center flex-col items-center gap-10">
         <div>
           <img src={UserWithChartOne} alt="img1" />

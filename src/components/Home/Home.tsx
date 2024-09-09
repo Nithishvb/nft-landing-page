@@ -10,21 +10,21 @@ const Home = () => {
         <img
           src={HomeLeftRectangle}
           alt="rect_image"
-          className="absolute top-0 left-[-230px]"
+          className="absolute top-0 left-[-230px] "
         />
         <img
           src={HomeRightRectangle}
           alt=""
-          className="absolute top-0 right-0 lg:w-[800px]"
+          className="absolute top-0 right-0 w-[300px] lg:w-[800px]"
         />
       </div>
       <div className="relative z-10">
         <Header />
       </div>
-      <div className="relative z-10 lg:pl-[25px]">
+      <div className="relative z-5 lg:pl-[25px]">
         <HomeBanner />
       </div>
-      <div className="relative z-10">
+      <div className="relative z-5">
         <HomeBannerImage />
       </div>
     </div>

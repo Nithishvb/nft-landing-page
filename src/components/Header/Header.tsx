@@ -6,7 +6,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="text-white flex items-center justify-between pl-6 lg:px-[200px] py-[25px]">
+    <div className="text-white flex items-center justify-between pl-6 lg:px-[200px] md:px-[50px] py-[25px] relative">
       <div>
         <img
           src={LogoImage}
@@ -28,47 +28,9 @@ const Header = () => {
           Start free trail
         </button>
       </div>
-      {/* <header className="pr-5 lg:hidden">
-        <div>
-          <div>
-            <button className="rounded-full">
-              <MenuIcon className="h-6 w-6" onClick={() => setIsOpen(!isOpen)} />
-              <span className="sr-only">Toggle navigation menu</span>
-            </button>
-          </div>
-          <div className={`w-[300px] bg-white h-[100%] p-6 ${isOpen ? 'block' : 'hidden'}`}>
-            <nav className="grid gap-4">
-              <a
-                href="#"
-                className="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-              >
-                Home
-              </a>
-              <a
-                href="#"
-                className="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-              >
-                About
-              </a>
-              <a
-                href="#"
-                className="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-              >
-                Services
-              </a>
-              <a
-                href="#"
-                className="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-              >
-                Contact
-              </a>
-            </nav>
-          </div>
-        </div>
-      </header> */}
-      <div className="lg:hidden pr-[8px] relative">
+      <div className="lg:hidden pr-[18px]">
         <button
-          className={`focus:outline-none ${isOpen ? 'hidden' : "block"}`}
+          className={`focus:outline-none ${isOpen ? "hidden" : "block"}`}
           onClick={() => setIsOpen(!isOpen)}
         >
           <svg className="h-6 w-6 fill-current text-white" viewBox="0 0 24 24">
@@ -77,14 +39,14 @@ const Header = () => {
         </button>
       </div>
       <div
-        className={`md:flex md:items-center md:w-auto lg:hidden ${
+        className={`lg:flex lg:items-center lg:w-auto lg:hidden bg-white absolute z-[1000px] right-0 top-0 transition	delay-75	 ease-in ${
           isOpen ? "block" : "hidden"
         }`}
       >
-        <div>
-          <X color="black" onClick={() => setIsOpen(false)} />
-        </div>
-        <ul className="text-black bg-white font-medium mt-4 md:flex md:justify-end md:mt-0 absolute right-0 p-[20px] w-[200px]">
+        <ul className="text-black bg-white pt-[25px] h-screen font-medium mt-4 absolute right-0 top-[-16px] p-[20px] w-[200px]">
+          <div className="flex justify-end">
+            <X color="black" onClick={() => setIsOpen(false)} />
+          </div>
           <li>
             <a
               href="/"
